@@ -6,7 +6,7 @@ name 'ug-accounts'
 description 'Accounts Script for UgCore by UgDev'
 author 'UgDev'
 version '3.5'
-url 'https://github.com/UgDevOfc/ug-accounts/'
+url 'https://github.com/ugcore-framework/ug-accounts/'
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
@@ -15,4 +15,5 @@ server_scripts {
     'server/functions.lua',
     'server/events.lua',
     'server/callbacks.lua',
+    'server/version.lua'
 }
